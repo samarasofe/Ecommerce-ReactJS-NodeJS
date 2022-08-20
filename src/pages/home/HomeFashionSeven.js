@@ -1,0 +1,71 @@
+import React, { Fragment } from "react";
+import MetaTags from "react-meta-tags";
+import LayoutOne from "../../layouts/LayoutOne";
+import HeroSliderFifteen from "../../wrappers/hero-slider/HeroSliderFifteen";
+import TabProductNine from "../../wrappers/product/TabProductNine";
+import BannerEleven from "../../wrappers/banner/BannerEleven";
+import CountDownThree from "../../wrappers/countdown/CountDownThree";
+import FeatureIconFour from "../../wrappers/feature-icon/FeatureIconFour";
+import NewsletterThree from "../../wrappers/newsletter/NewsletterThree";
+import VideoPopupTwo from "../../components/video-popup/VideoPopupTwo";
+import VideoPopup from "../../components/video-popup/VideoPopup";
+import BannerNewIcons from "../../components/banner/BannerNewIcons";
+import BannerProductOption from "../../components/banner/BannerProductOption";
+
+const HomeFashionSeven = () => {
+  return (
+    <Fragment>
+      <MetaTags>
+        <title>Super Copo Acrílicos - Copos personalizados e lisos</title>
+        <meta
+          name="description"
+          content="Super Copo Acrílicos - Copos personalizados e lisos."
+        />
+      </MetaTags>
+      <LayoutOne
+        headerContainerClass="container-fluid"
+        headerPaddingClass="header-padding-2"
+        headerTop="visible"
+      >
+        {/* hero slider */}
+        <HeroSliderFifteen />
+        <BannerNewIcons/>
+        <BannerProductOption/>
+        {/* tab product */}
+        <TabProductNine
+          category="fashion"
+          spaceBottomClass="pb-100"
+          spaceTopClass="pt-100"
+        />
+        {/* banner */}
+        <BannerEleven />
+        {/* countdown */}
+        <CountDownThree
+          spaceTopClass="pt-100"
+          spaceBottomClass="pb-100"
+          dateTime="November 13, 2021 12:12:00"
+          countDownImage="/assets/img/banner/party.jpg"
+        />
+        {/* Youtube video */}
+        <VideoPopup />
+        {/* feature icon */}
+        <FeatureIconFour
+          bgImg="/assets/img/bg/shape.png"
+          containerClass="container-fluid"
+          gutterClass="padding-10-row-col"
+          spaceTopClass="pt-50"
+          spaceBottomClass="pb-40"
+        />
+        {/* newsletter */}
+        <NewsletterThree
+          spaceTopClass="pt-50"
+          spaceBottomClass="pb-30"
+          subscribeBtnClass="dark-red-subscribe"
+        />
+        {/* <VideoPopupTwo/> */}
+      </LayoutOne>
+    </Fragment>
+  );
+};
+
+export default HomeFashionSeven;

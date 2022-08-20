@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "titleImage": "/assets/img/icon-img/icon-sobre-a-supercopo.png",
+    "title": "SUPER COPO",
+    "iconImage": "/assets/img/icon-img/icon-compra-segura.png",
+    "backgroundColor": "#540c54"
+  },
+  {
+    "id": 2,
+    "titleImage": "/assets/img/icon-img/icon-trocas-e-devolucoes.png",
+    "title": "TROCA E DEVOLUÇÃO",
+    "iconImage": "/assets/img/icon-img/support-6.png",
+    "backgroundColor": "#540c54"
+  },
+  {
+    "id": 3,
+    "titleImage": "/assets/img/icon-img/pagamento-seguro.png",
+    "title": "PAGAMENTO SEGURO",
+    "iconImage": "/assets/img/icon-img/support-7.png",
+    "backgroundColor": "#540c54"
+  },
+  {
+    "id": 3,
+    "titleImage": "/assets/img/icon-img/icon-rastreio.png",
+    "title": "RASTREIE SEU PEDIDO",
+    "iconImage": "/assets/img/icon-img/support-7.png",
+    "backgroundColor": "#540c54"
+  },
+  {
+    "id": 1,
+    "titleImage": "/assets/img/icon-img/icon-atendimento.png",
+    "title": "SUPORTE",
+    "iconImage": "/assets/img/icon-img/support-5.png",
+    "backgroundColor": "#540c54"
+  }
+
+]

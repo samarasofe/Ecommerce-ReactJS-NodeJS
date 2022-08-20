@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/banner/banner01.png", 
+    "title": "Men Fashion Shop",
+    "subtitle": "Choose Your Products Here",
+    "link": "/shop-grid-standard",
+    "textAlign": "right"
+  }
+]

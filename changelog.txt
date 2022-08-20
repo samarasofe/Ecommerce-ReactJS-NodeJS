@@ -1,0 +1,12 @@
+Date   : 29 June, 2021
+Version: 2.1 
+========================
+1. React version updated to 17.0.2
+2. Bootstrap version updated to 4.6.0
+
+
+Date   : 11 November, 2020
+Version: 2.0 
+========================
+1. React version updated to 17.0.1
+2. "node-sass" plugin replaced with "sass"
